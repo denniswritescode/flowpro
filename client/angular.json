@@ -66,7 +66,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "flowpro:build"
+            "browserTarget": "flowpro:build",
+            "port": 4100
           },
           "configurations": {
             "production": {
