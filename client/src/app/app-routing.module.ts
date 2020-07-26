@@ -1,7 +1,9 @@
-import { ViewComponent } from './view/view.component';
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+
 import { FrameComponent } from './frame/frame.component';
+import { ActionsComponent } from './pages/actions/actions.component';
+import { IncomeCreateComponent } from './pages/income/income-create/income-create.component';
 
 
 const routes: Routes = [
@@ -11,8 +13,12 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: ViewComponent,
-      }
+        component: ActionsComponent,
+      },
+      {
+        path: 'income/create',
+        component: IncomeCreateComponent,
+      },
     ]
   },
 ];

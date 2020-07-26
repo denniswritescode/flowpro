@@ -5,3 +5,8 @@ export enum SeriesRepeatType {
   ONCE,
   WEEKLY,
 }
+
+export enum TransactionType {
+  INCOME,
+  EXPENSE,
+}

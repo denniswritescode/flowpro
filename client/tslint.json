@@ -7,6 +7,7 @@
         "statements"
       ]
     },
+    "ordered-imports": true,
     "array-type": false,
     "arrow-return-shorthand": true,
     "curly": true,
